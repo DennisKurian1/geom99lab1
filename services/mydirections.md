@@ -9,7 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://YourDirectionsApiURLGoesHere
+https://maps.google.com/maps/api/directions/json?origin=Kattappana%2C%20IN&destination=Kottayam%2C%20IN&avoid=tolls&Travel_mode=bicycling&waypoints=via%3AKuttikkanam%2CIN%7Cvia%3AMundakayam%2CIN%7Cvia%3AKanjirappally%2AIN&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
