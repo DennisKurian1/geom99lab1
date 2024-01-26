@@ -32,7 +32,7 @@
     // Request needed libraries.
     const { Map, InfoWindow } = await google.maps.importLibrary("maps");
     const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
-      "marker",
+      "marker",                                                                                                      //source: https://developers.google.com/maps/documentation/javascript/advanced-markers/accessible-markers
     );
     const map = new Map(document.getElementById("map"), {
         zoom: 11,
@@ -74,7 +74,7 @@
           // Create the polyline, passing the symbol in the 'icons' property.
           // Give the line an opacity of 0.
           // Repeat the symbol at intervals of 20 pixels to create the dashed effect.
-          const line = new google.maps.Polyline({
+          const line = new google.maps.Polyline({                                                                 //source: https://developers.google.com/maps/documentation/javascript/examples/overlay-symbol-dashed
             path: [
               { lat: 30.044460096519572, lng: 31.23569563985589 },
               {  lat: 29.979473586663406 , lng:31.13409275325347},
